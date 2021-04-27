@@ -27,9 +27,9 @@
     <div class="container">
       <div class="card_overview">
         <div class="card-body">
-          <form class="search_city">
+          <form id="search_city">
             <input
-              type="text"
+              type="search"
               placeholder="Search other city"
               id="search-input"
             />
@@ -42,21 +42,21 @@
                 <li><span class="current">Month Date at HH:MM</span></li>
                 <li><span id="description"></span></li>
                 <li>Humidity: <span id="humidity"></span>%</li>
-                <li>Wind: <span id="wind"></span>km</li>
+                <li>Wind: <span id="wind"></span>km/h</li>
             </ul>
     </div>
 
           <div class="row">
             <div class="col-sm">
-              <h1 class="h1city">Stockholm</h1>
+              <h1 id="city">Stockholm</h1>
             </div>
             <div class="col-sm">
-              <h2>
-                <i class="fas fa-cloud-sun"></i>
+              <h2><img src="" alt="Clear" id="icon" class="float-left" />
+
               </h2>
             </div>
-            <div class="col-sm">
-              <h3>12°C</h3>
+            <div class="col-sm" >
+              <h3><span id="temp">12</span>°C</h3>
             </div>
 
              <div class="weather-forecast">

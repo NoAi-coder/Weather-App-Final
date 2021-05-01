@@ -42,7 +42,7 @@ function displayForecast(response) {
 
   let forecastHTML = `<div class="row">`;
   forecast.forEach(function (forecastDay, index) {
-    //control numbers of visible forecast
+    //control numbers of visible forecast by using index
     if (index < 6) {
       forecastHTML =
         forecastHTML +
